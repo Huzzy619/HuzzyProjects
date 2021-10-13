@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Life</title>
+</head>
+<body>
+<p> I fit dey run to you </p>
+
+
+{% for work in works %}
+<h1>{{work.Project_title}}</h1> 
+<p> About: {{work.About_project}} </p>
+<p>registered on {{work.date_posted}}</p>
+<br>
+{% endfor %}
+
+</body>
+</html>
+
+
+
